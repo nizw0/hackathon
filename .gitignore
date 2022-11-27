@@ -12,6 +12,7 @@
 /build
 
 # settings
+.vscode
 .*.json
 
 # misc
