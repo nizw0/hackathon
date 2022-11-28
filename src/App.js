@@ -4,7 +4,6 @@ import { Board } from './components/board'
 import { Event } from './components/event'
 import { Footer } from './components/footer'
 import { Intro } from './components/intro'
-import { Navbar } from './components/navbar'
 import { Notice } from './components/notice'
 import { Prize } from './components/prize'
 import { Schedule } from './components/schedule'
@@ -12,14 +11,13 @@ import { Schedule } from './components/schedule'
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Banner />
+      <Banner id="banner" />
       <Board id="board" />
-      <Intro />
+      <Intro id="banner" />
       <Event id="event" />
-      <Prize />
-      <Notice />
-      <Schedule />
+      <Prize id="prize" />
+      <Notice id="notice" />
+      <Schedule id="schedule" />
       <Footer id="footer" />
     </div>
   )
