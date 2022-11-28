@@ -1,6 +1,6 @@
-export function Footer() {
+export function Footer(props) {
   return (
-    <div>
+    <div id={props.id}>
       <footer className="p-4 bg-white dark:bg-gray-900 sm:p-6">
         <div className="flex flex-col items-center space-y-2 md:justify-between">
           <span className="block text-sm text-gray-500 dark:text-gray-400 sm:inline-block sm:text-center">

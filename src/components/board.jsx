@@ -5,9 +5,9 @@ function Post(props) {
   return <li className="text-xl text-gray-600">{props.children}</li>
 }
 
-export function Board() {
+export function Board(props) {
   return (
-    <div className="px-1 py-20">
+    <div className="px-1 py-20" id={props.id}>
       <h2 className="text-5xl font-bold text-gray-600">最新公告</h2>
       <GrayLine />
       <ul className="space-y-1 text-center text-gray-500 list-none list-inside dark:text-gray-400">

@@ -1,9 +1,9 @@
 import { GrayLine } from './line'
 import { Timeline, TimelineEvent } from './timeline'
 
-export function Schedule() {
+export function Schedule(props) {
   return (
-    <div className="pt-5 bg-white">
+    <div className="pt-5 bg-white" id={props.id}>
       <h2 className="text-5xl font-bold text-gray-600">活動日程</h2>
       <GrayLine />
       <div className="pt-5">

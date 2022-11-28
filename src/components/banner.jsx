@@ -1,9 +1,12 @@
 import style from './banner.module.css'
 import { Line } from './line'
 
-export function Banner() {
+export function Banner(props) {
   return (
-    <article className="grid h-screen grid-cols-1 items-center justify-center bg-[#203043] pt-5 pb-32 md:h-4/5 md:pt-10 lg:pt-24">
+    <article
+      className="grid h-screen grid-cols-1 items-center justify-center bg-[#203043] pt-5 pb-32 md:h-4/5 md:pt-10 lg:pt-24"
+      id={props.id}
+    >
       <section>
         <span className={style.uppertitle}>-AWS Educate-</span>
         <h1 className="mt-3 mb-10 text-6xl font-extrabold md:space-x-4">

@@ -1,10 +1,9 @@
 import { Line } from './line'
-import style from './prize.module.css'
 
-export function Prize() {
+export function Prize(props) {
   return (
-    <div className="bg-[#182025] px-5 py-12">
-      <h2 className={style.h2}>競賽獎項</h2>
+    <div className="bg-[#182025] px-5 py-12" id={props.id}>
+      <h2 className="text-5xl font-bold text-white ">競賽獎項</h2>
       <Line />
       <div className="relative grid justify-center overflow-x-auto">
         <table className="w-full text-sm text-left text-white">

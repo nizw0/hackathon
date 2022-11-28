@@ -1,18 +1,17 @@
-import style from './intro.module.css'
 import { Link } from './link'
 
-export function Intro() {
+export function Intro(props) {
   return (
-    <div className="px-5 py-12 bg-gray-200">
-      <h3 className={style.h3}>黑客松競賽緣起</h3>
-      <p className={style.p}>
+    <div className="px-5 py-12 bg-gray-200" id={props.id}>
+      <h3 className="pb-5 text-3xl font-bold text-left text-gray-600">黑客松競賽緣起</h3>
+      <p className="mb-4 text-lg font-normal tracking-wide text-left text-gray-500 indent-6 dark:text-gray-400 lg:tracking-normal">
         隨著服務 IT
         化及自動化的風行，雲端技術的能力日漸重要，然而校園教授雲端技術的課程偏少切多半針對資工相關科系學生而較艱深，因此本活動希望推廣
         AWS Educate
         平台的免費訓練資源，提供學生根據自己需求學習相關雲端技術的技能，為自己的履歷更加分，同時也透過最終為期兩天的黑客松競賽，讓學生的提案有成果發表的機會。
       </p>
-      <h3 className={style.h3}>關於雲端運算</h3>
-      <p className={style.p}>
+      <h3 className="pb-5 text-3xl font-bold text-left text-gray-600">關於雲端運算</h3>
+      <p className="mb-4 text-lg font-normal tracking-wide text-left text-gray-500 indent-6 dark:text-gray-400 lg:tracking-normal">
         雲端運算（Cloud
         Computing）是近年來非常熱門的科技名詞，甚至整個資訊產業的發展方向都因此受到了影響，現在已成為國際間各大科技公司爭搶的市場。根據
         LinkedIn 「2020
@@ -22,8 +21,8 @@ export function Intro() {
         雲端基礎架構部署、大數據分析、系統工程等等人才更加炙手可熱。
         想要凸顯個人履歷、增加面試機會，雲端技能將會是你未來不可或缺的一大優勢！
       </p>
-      <h3 className={style.h3}>AWS Educate 線上學習平台</h3>
-      <p className={style.p}>
+      <h3 className="pb-5 text-3xl font-bold text-left text-gray-600">AWS Educate 線上學習平台</h3>
+      <p className="mb-4 text-lg font-normal tracking-wide text-left text-gray-500 indent-6 dark:text-gray-400 lg:tracking-normal">
         <Link href="https://aws.amazon.com/tw/education/awseducate/">AWS Educate</Link>{' '}
         是一個完全免費，可以線上學習雲端職能的學習平台，只要一個電子信箱不論是教育機構、教育工作者、
         學生都可以隨時隨地開始學習，目的是培養學習者對於未來雲端相關職缺的基本知識與應用。 而若您是 14

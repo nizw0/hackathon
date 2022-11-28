@@ -2,9 +2,9 @@ import themePicture from '../assets/esg-and-csr.png'
 import { Line } from './line'
 import { Link } from './link'
 
-export function Notice() {
+export function Notice(props) {
   return (
-    <div className="bg-[#182025] px-5 py-12">
+    <div className="bg-[#182025] px-5 py-12" id={props.id}>
       <h2 className="text-5xl font-bold text-white">競賽須知</h2>
       <Line />
       <div>

@@ -1,7 +1,0 @@
-.h3 {
-  @apply pb-5 text-left text-3xl font-bold text-gray-600;
-}
-
-.p {
-  @apply mb-4 text-left indent-6 text-lg font-normal tracking-wide text-gray-500 dark:text-gray-400 lg:tracking-normal;
-}

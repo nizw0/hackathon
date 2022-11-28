@@ -1,14 +1,13 @@
 import aws from '../assets/aws-in-taiwan.png'
 import hackathon from '../assets/hackathon.png'
-import style from './event.module.css'
 import { Line } from './line'
 
-export function Event() {
+export function Event(props) {
   return (
-    <div className="bg-[#182025] px-5 py-12">
-      <h2 className={style.h2}>活動辦法</h2>
+    <div className="bg-[#182025] px-5 py-12" id={props.id}>
+      <h2 className="text-5xl font-bold text-white">活動辦法</h2>
       <Line />
-      <p className={style.p}>
+      <p className="mb-4 text-lg font-normal tracking-wide text-left text-white indent-6 lg:tracking-normal">
         由第三屆 AWS Educate 南區雲端大使舉辦，分成初賽及決賽的黑客松競賽！初賽參賽資格為註冊 AWS Educate
         學習平台的證明，希望參賽者能運用 AWS Educate 上的資源來豐富化競賽提案，並具備相關雲端知識！
         實體黑客松活動將由初賽線上篩選及實體複賽為賽制，初賽 3-6 人的小組進行繳交提案線上審查，決賽則會於 AWS
