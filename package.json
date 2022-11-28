@@ -1,6 +1,7 @@
 {
   "name": "amathon-warrior-saga",
   "version": "1.0.0",
+  "homepage": "https://nizw0.github.io",
   "private": true,
   "browserslist": {
     "production": [
@@ -23,6 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,6 +43,7 @@
     "@tailwindcss/typography": "^0.5.8",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.28.0",
+    "gh-pages": "^4.0.0",
     "postcss": "^8.4.19",
     "prettier": "^2.8.0",
     "prettier-plugin-tailwindcss": "^0.2.0",
