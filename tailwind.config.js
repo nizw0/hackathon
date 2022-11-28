@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}', 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'],
+  mode: 'jit',
+  purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}',
+    './src/components/**/*.{html,js}',
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+  ],
   theme: {
     extend: {}
   },
-  plugins: [require('flowbite/plugin')]
+  plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')]
 }

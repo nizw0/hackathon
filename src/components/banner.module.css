@@ -1,0 +1,15 @@
+.title {
+  @apply block uppercase text-white first-letter:text-[#f6cd59] lg:inline-block;
+}
+
+.subtitle {
+  @apply block text-6xl font-bold text-[#ffbc00] md:inline-block;
+}
+
+.uppertitle {
+  @apply text-5xl font-bold text-white;
+}
+
+.lowertitle {
+  @apply mb-10 text-3xl font-bold uppercase text-white;
+}
