@@ -14,9 +14,9 @@ export function Prize(props) {
               </th>
               <td className="px-6 py-4">
                 <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
-                  <li>AWS 內部 BD/DEV 部門 一對一面談機會</li>
-                  <li>AWS 雲端技術專屬 Training Session</li>
                   <li>AWS 證照優惠（全額補助 價值 3000 元新台幣）</li>
+                  <li>AWS 內部 BD/DEV 部門 一對一面談機會</li>
+                  <li>精美小禮物</li>
                 </ol>
               </td>
             </tr>
@@ -27,7 +27,7 @@ export function Prize(props) {
               <td className="px-6 py-4">
                 <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
                   <li>AWS 內部 BD/DEV 部門 一對一面談機會</li>
-                  <li>AWS 雲端技術專屬 Training Session</li>
+                  <li>紀念簡報筆</li>
                 </ol>
               </td>
             </tr>
@@ -37,17 +37,7 @@ export function Prize(props) {
               </th>
               <td className="px-6 py-4">
                 <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
-                  <li>AWS 雲端技術專屬 Training Session</li>
-                </ol>
-              </td>
-            </tr>
-            <tr className="border-b bg-[#182025]">
-              <th scope="row" className="px-6 py-4 font-bold whitespace-nowrap">
-                🏅最佳技術獎
-              </th>
-              <td className="px-6 py-4">
-                <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
-                  <li>紀念簡報筆、AWS Credit 25$ （所有隊員各一份）</li>
+                  <li>紀念電腦包、AWS Credit 25$</li>
                 </ol>
               </td>
             </tr>

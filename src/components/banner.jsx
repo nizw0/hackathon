@@ -8,18 +8,17 @@ export function Banner(props) {
       id={props.id}
     >
       <section>
-        <span className={style.uppertitle}>-AWS Educate-</span>
         <h1 className="mt-3 mb-10 text-6xl font-extrabold md:space-x-4">
-          <span className={style.title}>Amathon</span>
+          <span className={style.title}>AWS</span>
+          <span className={style.title}>Educate</span>
           <span className={style.title}>Warrior</span>
           <span className={style.title}>Saga</span>
         </h1>
-        <span className={style.subtitle}>雲端技術勇士</span>
-        <span className={style.subtitle}>黑客松競賽</span>
+        <span className={style.subtitle}>雲端技術</span>
+        <span className={style.subtitle}>提案競賽</span>
       </section>
       <Line />
       <section>
-        <p className={style.lowertitle}>AWS Educate Hackathon</p>
         <div className="flex items-center justify-center space-x-6">
           <button>
             <a

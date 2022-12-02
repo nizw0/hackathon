@@ -69,19 +69,19 @@ export function Notice(props) {
             <li>
               相關性 20%
               <ol className="pl-5 mt-2 space-y-1 font-normal list-disc list-inside">
-                <li>題目與AWS Educate課程內容是否相符？是否運用到雲端概念？</li>
+                <li>題目與 AWS Educate 課程內容是否相符？是否運用到雲端概念？</li>
               </ol>
             </li>
             <li>
               可行性 20%
               <ol className="pl-5 mt-2 space-y-1 font-normal list-disc list-inside">
-                <li>方法設計是否可行、邏輯性、是否能在黑客松時間內完成？</li>
+                <li>方法設計是否可行、邏輯性、是否能在活動時間內完成？</li>
               </ol>
             </li>
             <li>
               應用性 30%
               <ol className="pl-5 mt-2 space-y-1 font-normal list-disc list-inside">
-                <li>是否結合在能對AWS現有資源改良/功能擴增？</li>
+                <li>是否結合在能對 AWS 現有資源改良/功能擴增？</li>
                 <li>是否為現實中重要的議題（市場潛力、民眾接受度、商業效益、議題急迫性）？</li>
               </ol>
             </li>
