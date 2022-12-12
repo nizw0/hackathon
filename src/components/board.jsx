@@ -13,7 +13,7 @@ export function Board(props) {
       <ul className="space-y-1 text-center text-gray-500 list-none list-inside dark:text-gray-400">
         <Post>競賽【線上說明影片】網址</Post>
         <Post>
-          <span className="block md:inline-block">敬請關注AWS Educate雲端校園大使的</span>
+          <span className="block md:inline-block">敬請關注 AWS Educate 雲端校園大使的</span>
           <span className="block md:inline-block">
             <Link href="https://www.instagram.com/awseducatestdambtw/">Instagram</Link>、
             <Link href="https://www.facebook.com/awseducatestudentambassadortaiwan">Facebook</Link>

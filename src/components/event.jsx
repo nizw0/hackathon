@@ -8,10 +8,10 @@ export function Event(props) {
       <h2 className="text-5xl font-bold text-white">活動辦法</h2>
       <Line />
       <p className="mb-4 text-lg font-normal tracking-wide text-left text-white indent-6 lg:tracking-normal">
-        由第三屆 AWS Educate 南區雲端大使舉辦，分成初賽及決賽的提案競賽！初賽參賽資格為註冊 AWS Educate
-        學習平台的證明，希望參賽者能運用 AWS Educate 上的資源來豐富化競賽提案，並具備相關雲端知識！
-        實體活動將由初賽線上篩選及實體複賽為賽制，初賽 3-6 人的小組進行繳交提案線上審查，決賽則會於 AWS
-        台北辦公室舉辦並進行頒獎，以促成更多不同背景的隊員一起進行競賽！
+        由第三屆<span className="font-bold"> AWS Educate 南區雲端大使主辦</span>
+        ，分成初賽及決賽的提案競賽！初賽參賽資格為註冊 AWS Educate 學習平台的證明，希望參賽者能運用 AWS Educate
+        上的資源來豐富化競賽提案，並具備相關雲端知識！ 實體活動將由初賽線上篩選及實體複賽為賽制，初賽 3-6
+        人的小組進行繳交提案線上審查，決賽則會於 AWS 台北辦公室舉辦並進行頒獎，以促成更多不同背景的隊員一起進行競賽！
       </p>
       <div className="flex flex-col items-center space-y-10 md:flex-row md:justify-center md:space-x-16 md:space-y-0">
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:border-gray-700 dark:bg-gray-800">

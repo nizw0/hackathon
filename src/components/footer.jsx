@@ -4,11 +4,11 @@ export function Footer(props) {
       <footer className="p-4 bg-white dark:bg-gray-900 sm:p-6">
         <div className="flex flex-col items-center space-y-2 md:justify-between">
           <span className="block text-sm text-gray-500 dark:text-gray-400 sm:inline-block sm:text-center">
-            © 2022{' '}
+            © 2022,{' '}
             <a href="https://aws.amazon.com/tw/education/awseducate/" className="block hover:underline sm:inline-block">
-              AWS Educate Cloud Ambassador™.
+              AWS Educate Cloud Ambassador
             </a>{' '}
-            All Rights Reserved.
+            或其合作夥伴，保留所有權利。
           </span>
           <div className="flex mt-4 space-x-6 sm:mt-0 sm:justify-center">
             <a
