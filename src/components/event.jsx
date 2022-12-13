@@ -7,42 +7,42 @@ export function Event(props) {
     <div className="bg-[#182025] px-5 py-12" id={props.id}>
       <h2 className="text-5xl font-bold text-white">活動辦法</h2>
       <Line />
-      <p className="mb-4 text-lg font-normal tracking-wide text-left text-white indent-6 lg:tracking-normal">
+      <p className="mb-4 text-left indent-6 text-lg font-normal tracking-wide text-white lg:tracking-normal">
         由第三屆<span className="font-bold"> AWS Educate 南區雲端大使主辦</span>
         ，分成初賽及決賽的提案競賽！初賽參賽資格為註冊 AWS Educate 學習平台的證明，希望參賽者能運用 AWS Educate
         上的資源來豐富化競賽提案，並具備相關雲端知識！ 實體活動將由初賽線上篩選及實體複賽為賽制，初賽 3-6
         人的小組進行繳交提案線上審查，決賽則會於 AWS 台北辦公室舉辦並進行頒獎，以促成更多不同背景的隊員一起進行競賽！
       </p>
       <div className="flex flex-col items-center space-y-10 md:flex-row md:justify-center md:space-x-16 md:space-y-0">
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:border-gray-700 dark:bg-gray-800">
+        <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800">
           <img className="rounded-t-lg" src={hackathon} />
           <div className="p-5">
             <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">初賽</h3>
-            <ul className="space-y-4 text-left text-gray-600 list-disc list-inside">
+            <ul className="list-inside list-disc space-y-4 text-left text-gray-600">
               <li>
                 <span className="text-lg">參賽資格</span>
-                <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
+                <ol className="mt-2 list-inside list-none space-y-1 pl-6">
                   <li>註冊 AWS Educate 並於表單上傳完成註冊截圖3-6人一組，每組只能繳交一份，以表單繳交提案</li>
                 </ol>
               </li>
               <li>
                 <span className="text-lg">舉辦地點</span>
-                <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
+                <ol className="mt-2 list-inside list-none space-y-1 pl-6">
                   <li>
-                    線上審查（<time>11/28</time> - <time>12/28</time>）
+                    線上審查（<time>12/14</time> - <time>01/09</time>）
                   </li>
                 </ol>
               </li>
               <li>
                 <span className="text-lg">繳交資料</span>
-                <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
-                  <ol className="mt-2 space-y-1 list-decimal list-inside">
+                <ol className="mt-2 list-inside list-none space-y-1 pl-6">
+                  <ol className="mt-2 list-inside list-decimal space-y-1">
                     <li>報名資料</li>
                     <li>AWS Educate 註冊截圖</li>
                     <li>初賽提案PDF檔</li>
                   </ol>
                   <li>
-                    <time>12/28</time> 截止 詳細規範見報名表單
+                    <time>01/09</time> 截止 詳細規範見報名表單
                   </li>
                 </ol>
               </li>
@@ -57,20 +57,20 @@ export function Event(props) {
             </a>
           </button>
         </div>
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:border-gray-700 dark:bg-gray-800">
+        <div className="max-w-sm rounded-lg border border-gray-200 bg-white shadow-md dark:border-gray-700 dark:bg-gray-800">
           <img className="rounded-t-lg" src={aws} />
           <div className="p-5">
             <h3 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">決賽</h3>
-            <ul className="space-y-4 text-left text-gray-600 list-disc list-inside">
+            <ul className="list-inside list-disc space-y-4 text-left text-gray-600">
               <li>
                 <span className="text-lg">參賽資格</span>
-                <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
+                <ol className="mt-2 list-inside list-none space-y-1 pl-6">
                   <li>通過複賽的提案在表定時間前完成決賽的組隊 並須以小組為單位填寫「決賽確認出席表單」</li>
                 </ol>
               </li>
               <li>
                 <span className="text-lg">舉辦地點</span>
-                <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
+                <ol className="mt-2 list-inside list-none space-y-1 pl-6">
                   <li>
                     實體舉辦（<time>01/19</time>）
                   </li>
@@ -80,7 +80,7 @@ export function Event(props) {
               </li>
               <li>
                 <span className="text-lg">繳交資料</span>
-                <ol className="pl-6 mt-2 space-y-1 list-none list-inside">
+                <ol className="mt-2 list-inside list-none space-y-1 pl-6">
                   <li>簡報及成果Demo</li>
                   <li></li>
                 </ol>
