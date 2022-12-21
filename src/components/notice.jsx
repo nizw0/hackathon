@@ -126,7 +126,7 @@ export function Notice(props) {
               </ol>
             </li>
             <li>
-              內容創新性 20%
+              成果呈現 20%
               <ol className="pl-5 mt-2 space-y-1 font-normal list-disc list-inside">
                 <li>簡報呈現︰可讀性、組織性、成果、目標相關性</li>
                 <li>產品發表︰台風、口語邏輯、反應評分</li>
