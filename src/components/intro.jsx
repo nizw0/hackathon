@@ -8,7 +8,7 @@ export function Intro(props) {
         隨著服務 IT
         化及自動化的風行，雲端技術的能力日漸重要，然而校園教授雲端技術的課程偏少切多半針對資工相關科系學生而較艱深，因此本活動希望推廣
         AWS Educate
-        平台的免費訓練資源，提供學生根據自己需求學習相關雲端技術的技能，為自己的履歷更加分，同時也透過最終為期兩天的提案競賽，讓學生的提案有成果發表的機會。
+        平台的免費訓練資源，提供學生根據自己需求學習相關雲端技術的技能，為自己的履歷更加分，同時也透過最終為期一天的提案競賽，讓學生的提案有成果發表的機會。
       </p>
       <h3 className="pb-5 text-3xl font-bold text-left text-gray-600">關於雲端運算</h3>
       <p className="mb-4 text-lg font-normal tracking-wide text-left text-gray-500 indent-6 dark:text-gray-400 lg:tracking-normal">
