@@ -13,11 +13,11 @@ function App() {
     <div className="App">
       <Banner id="banner" />
       <Board id="board" />
-      <Intro id="banner" />
+      <Schedule id="schedule" />
+      <Intro id="intro" />
       <Event id="event" />
       <Prize id="prize" />
       <Notice id="notice" />
-      <Schedule id="schedule" />
       <Footer id="footer" />
     </div>
   )
