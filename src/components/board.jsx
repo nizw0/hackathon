@@ -11,13 +11,15 @@ export function Board(props) {
       <h2 className="text-5xl font-bold text-gray-600">最新公告</h2>
       <GrayLine />
       <ul className="space-y-1 text-center text-gray-500 list-none list-inside dark:text-gray-400">
-        <Post>競賽【線上說明影片】網址</Post>
+        <Post>
+          競賽【線上說明影片】<Link href="https://www.youtube.com/watch?v=BtlywlXopUE">網址</Link>
+        </Post>
         <Post>
           <span className="block md:inline-block">敬請關注 AWS Educate 雲端校園大使的</span>
           <span className="block md:inline-block">
             <Link href="https://www.instagram.com/awseducatestdambtw/">Instagram</Link>、
             <Link href="https://www.facebook.com/awseducatestudentambassadortaiwan">Facebook</Link>
-            以獲得最新消息
+            獲得最新消息
           </span>
         </Post>
         <Post>

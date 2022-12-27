@@ -43,22 +43,28 @@ export function Notice(props) {
         </div>
       </div>
       <div>
-        <h3 className="px-5 py-5 text-3xl font-bold text-left text-white">線上說明影片（預計 12/21 釋出）</h3>
+        <h3 className="px-5 py-5 text-3xl font-bold text-left text-white">線上說明影片</h3>
         <div className="flex justify-center">
-          <div
-            role="status"
-            className="flex items-center justify-center w-4/5 bg-gray-300 rounded-lg h-96 animate-pulse dark:bg-gray-700"
-          >
-            <svg
-              className="w-12 h-12 text-gray-200 dark:text-gray-600"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-              fill="currentColor"
-              viewBox="0 0 384 512"
-            >
-              <path d="M361 215C375.3 223.8 384 239.3 384 256C384 272.7 375.3 288.2 361 296.1L73.03 472.1C58.21 482 39.66 482.4 24.52 473.9C9.377 465.4 0 449.4 0 432V80C0 62.64 9.377 46.63 24.52 38.13C39.66 29.64 58.21 29.99 73.03 39.04L361 215z" />
-            </svg>
-          </div>
+          {/* <iframe
+            className="border-8 border-double border-sky-700"
+            width="910"
+            height="528"
+            src="https://www.youtube.com/watch?v=BtlywlXopUE"
+            title="Introduction of AWS Educate Warrior Saga"
+            frameBorder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          /> */}
+          <iframe
+            className="border-8 border-gray-700 border-double"
+            width="910"
+            height="528"
+            src="https://www.youtube.com/embed/BtlywlXopUE"
+            title="2022 AWS Educate雲端提案競賽說明會"
+            frameBorder="0"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
       <div>
